@@ -1,0 +1,103 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<title>reveal.js</title>
+
+	<link rel="stylesheet" href="dist/reset.css">
+	<link rel="stylesheet" href="dist/reveal.css">
+	<link rel="stylesheet" href="dist/theme/moon.css">
+
+	<!-- Theme used for syntax highlighted code -->
+	<link rel="stylesheet" href="plugin/highlight/monokai.css">
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<section data-markdown>
+				<textarea data-template>
+					  ## CoffeeScript
+					  Check out the website [here](https://coffeescript.org/)
+
+					  Presented by <h6>Johnny Long Vo</h6>
+					  <section data-background-image="images/coffee.png"
+					  data-background-size="100px" data-background-repeat="repeat"></section>
+					</textarea>
+			</section>
+			<section>
+				<section>
+					<h3>What is CoffeeScript?</h3>
+					<body>
+						<ul>
+							CoffeeScript is a language that compiles into JavaScript.
+							The golden rule of CoffeeScript is: “It is just JavaScript.”
+							<li>Better JavasScript</li>
+							<li>Compiles to JavaScript</li>
+							<li>Less Code</li>
+							<li>Synatactic Sugar</li>
+							CoffeeScript is an attempt to expose the good parts of JavaScript in a simple way
+						</ul>
+					</body>
+
+				</section>
+				<section>
+
+					<body>
+						<h5>Difference between CoffeeScript vs Javascript</h5>
+						<ul>
+							<li>Missing syntax elements</li>
+							<li>Whitespaces</li>
+							<li>Best Practices</li>
+						</ul>
+						<p>Functions are defined by an optional list of parameters in parentheses, an arrow, and the
+							function body. The empty function looks like this: -></p>
+						<img src="images/function.png" alt="Italian Trulli">
+						<p> CoffeeScript uses significant whitespace to delimit blocks of code.</p>
+					</body>
+				</section>
+
+				<section>
+					<h3>Benefits of using CoffeeScript</h3>
+					<ul>
+						<li>Easier to Understand</li>
+						<li>Write less code while doing more</li>
+						<li>Reliable</li>
+						<li>Readable & maintainable</li>
+						<li>Class-based inheritance</li>
+						<li>Avoid problematic errors</li>
+						<li>Extensive library support</li>
+
+					</ul>
+
+				</section>
+			</section>
+			<section>
+				<h1>Thank you!</h1>
+				Got Questions?</section>
+		</div>
+	</div>
+
+	<script src="dist/reveal.js"></script>
+	<script src="plugin/notes/notes.js"></script>
+	<script src="plugin/markdown/markdown.js"></script>
+	<script src="plugin/highlight/highlight.js"></script>
+	<script>
+		// More info about initialization & config:
+		// - https://revealjs.com/initialization/
+		// - https://revealjs.com/config/
+		Reveal.initialize({
+			hash: true,
+			autoAnimate: true,
+			transition: 'convex',
+
+			// Learn about plugins: https://revealjs.com/plugins/
+			plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
+		});
+	</script>
+</body>
+
+</html>
